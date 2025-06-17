@@ -94,6 +94,10 @@ PACKAGES=(
     # ansible for post-install configuration (podman machine init --playbook)
     ansible-core
 
+    # Add zsh shell
+    zsh
+    kitty-terminfo
+
     # WSL specific deps (most of them are already in the coreos base so this is a NOP there)
     procps-ng
     openssh-server

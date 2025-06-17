@@ -5,7 +5,6 @@ source ./podman-rpm-info-vars.sh
 CPU_ARCH=$(uname -m)
 declare -A ARCH_TO_IMAGE_ARCH=(
     ["x86_64"]="amd64"
-    ["aarch64"]="arm64"
 )
 
 
